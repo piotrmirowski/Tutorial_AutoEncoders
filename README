@@ -1,0 +1,31 @@
+Description of the repository
+-----------------------------
+
+This is the companion code for Piotr Mirowski's tutorial 
+on Auto-Encoders, given for the first time at the London Deep Learning
+meetup on March 26, 2014.
+This tutorial implements Marc'Aurelio Ranzato's Sparse Encoding 
+Symmetric Machine (SESM) and tests it on MNIST handwritten digits.
+
+The main reference is the following paper:
+M.'A. Ranzato, Y.-L. Boureau, and Y. LeCun.
+"Sparse Feature Learning for Deep Belief Networks"
+NIPS 2007
+
+The main reference to the MNIST dataset is:
+Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner.
+"Gradient-based learning applied to document recognition."
+Proceedings of the IEEE, 86(11):2278-2324, November 1998
+
+We use the Matlab version of the data, available at Sam Roweis' NYU page:
+http://www.cs.nyu.edu/~roweis/data.html
+
+
+Contents of the repository
+--------------------------
+
+* code: contains the code of the SESM and the tutorial.
+        Under Matlab/Octave, execute Script_MNIST.
+* data: contains the MNIST handwritten digits needed for the script.
+* bibliography: PDF versions of several papers related to Auto-Encoders
+                and to (deep) dimensionality reduction techniques.
